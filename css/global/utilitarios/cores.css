@@ -1,0 +1,29 @@
+:root {
+    --azul: #3461FF;
+    --preto: #000000;
+    --branco: #ffffff;
+    --cinza: #00000099;
+    --cinza-escuro:#252525;
+    --fundo-banner-logos: #FAFAFA;
+}
+
+.azul{
+    color: var(--azul);
+}
+.preto{
+    color: var(--preto);
+}
+.branco{
+    color: var(--branco);
+}
+.cinza{
+    color: #00000099;
+}
+.cinza-escuro{
+    color: #252525;;
+}
+.fundo-banner-logos{
+    background-color: #FAFAFA;
+}
+
+

@@ -1,0 +1,44 @@
+.header {
+    background-color: var(--branco);
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 88px;
+    padding: 18px 0;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;  /*para conseguir colocar o botao a frente do ul*/
+} 
+
+.header-nav ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-container .botao {
+    background-color: var(--azul);
+    border-radius: 70px;
+    transition: all ease-in-out 0.3s;
+    padding: 1rem 1.5rem;
+}
+
+.header-container .botao:hover {
+    background-color: #1b46e0;
+}
+
+.menu-button {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+}
+
+
+
