@@ -1,0 +1,30 @@
+.propagandas-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 146px;
+  margin: 0 auto;
+}
+
+.propagandas-text {
+  text-align: center;
+}
+.propagandas-text p {
+  max-width: 64ch;
+  padding: 12px 0 70px 0;
+  margin: 0 auto;
+}
+
+.propagandas-images {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding-bottom: 128px;
+}
+.propagandas-images h1,
+.propagandas-images p {
+  text-align: center;
+}
+.propagandas-images h1 {
+  padding: 16px 0 12px 0;
+}
