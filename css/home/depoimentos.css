@@ -1,0 +1,64 @@
+.depoimentos-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.depoimentos-title {
+  padding-top: 128px;
+  padding-bottom: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.depoimentos-setas img {
+  align-items: center;
+}
+.depoimentos-setas {
+  display: flex;
+  gap: 28px;
+}
+
+.depoimentos-setas .seta-d {
+  background-color: #00000013;
+  max-width: 70px;
+  padding: 18px;
+  border-radius: 100px;
+}
+
+.depoimentos-setas .seta-e {
+  background-color: #00000013;
+  max-width: 70px;
+  padding: 18px;
+  border-radius: 100px;
+}
+.depoimentos-setas button {
+  background-color: #00000000;
+}
+
+.depoimentos-cards-item {
+  display: flex;
+  gap: 20px;
+  padding-top: 47px;
+  padding-bottom: 128px;
+}
+
+.card1-img-title {
+  display: flex;
+  margin-bottom: 22px;
+}
+.card1-paragrafo p {
+  max-width: 36ch;
+}
+
+.card1-img-title div h5 {
+  padding-top: 10px;
+}
+
+.card1-img-title .nomecard {
+  padding-left: 20px;
+}
+.card1 {
+  padding: 32px;
+  border-radius: 30px;
+}

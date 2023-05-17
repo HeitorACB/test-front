@@ -1,29 +1,31 @@
 :root {
-    --azul: #3461FF;
-    --preto: #000000;
-    --branco: #ffffff;
-    --cinza: #00000099;
-    --cinza-escuro:#252525;
-    --fundo-banner-logos: #FAFAFA;
+  --azul: #3461ff;
+  --preto: #000000;
+  --branco: #ffffff;
+  --cinza: #00000099;
+  --cinza-escuro: #252525;
+  --fundo-banner-logos: #fafafa;
+  --cards: #f8f9ff;
 }
 
-.azul{
-    color: var(--azul);
+.azul {
+  color: var(--azul);
 }
-.preto{
-    color: var(--preto);
+.preto {
+  color: var(--preto);
 }
-.branco{
-    color: var(--branco);
+.branco {
+  color: var(--branco);
 }
-.cinza{
-    color: #00000099;
+.cinza {
+  color: #00000099;
 }
-.cinza-escuro{
-    color: #252525;;
+.cinza-escuro {
+  color: #252525;
 }
-.fundo-banner-logos{
-    background-color: #FAFAFA;
+.fundo-banner-logos {
+  background-color: #fafafa;
 }
-
-
+.cards {
+  background-color: #f8f9ff;
+}
