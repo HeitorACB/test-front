@@ -1,9 +1,8 @@
-
-.logos{
+.logos {
   background-color: var(--fundo-banner-logos);
 }
 
-.logos-container{
+.logos-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 80px 0;
@@ -12,19 +11,24 @@
   gap: 32px;
 }
 
-.logos-container h1{
+.logos-container h1 {
   max-width: 12ch;
 }
-.logos-container p{
+.logos-container p {
   max-width: 40ch;
 }
 
-.logos-images{
+.logos-images {
   display: flex;
+  justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
   padding-bottom: 80px;
 }
-.logos-images img{
-  margin: 0 auto;
+.logos-images img {
+  filter: saturate(0);
+  transition: all ease-in-out 0.3s;
+}
+.logos-images img:hover {
+  filter: saturate(1);
 }

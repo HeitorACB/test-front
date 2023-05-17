@@ -1,0 +1,30 @@
+.vuv-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 128px 0;
+}
+
+.vuv-title div h1 {
+  max-width: 10ch;
+}
+.vuv-title div p {
+  max-width: 42ch;
+}
+
+.vuv-images img {
+  background-color: var(--azul);
+  padding: 28px;
+  border-radius: 30px;
+}
+
+.vuv-images p {
+  max-width: 28ch;
+}
+
+.vuv-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.25rem 2rem;
+}

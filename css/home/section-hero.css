@@ -1,74 +1,73 @@
-.hero{
-    background-color: var(--branco);
+.hero {
+  background-color: var(--branco);
 }
 
-.hero-container{
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-top: 80px;
-    display: flex;
-    align-items: center;
-    gap: 86px;
-    position: relative;
-    margin-bottom: 250px;
+.hero-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  gap: 86px;
+  position: relative;
+  margin-bottom: 250px;
 }
 
-.cabecalho-hero h1{
-    margin-bottom: 1.5rem;
-    max-width: 11ch;
+.cabecalho-hero h1 {
+  margin-bottom: 1.5rem;
+  max-width: 11ch;
 }
-.cabecalho-hero p{
-    margin-bottom: 2rem;
-    max-width: 59ch;
-}
-
-.input-text-hero{
-    display: flex;
-    gap: 1rem;
+.cabecalho-hero p {
+  margin-bottom: 2rem;
+  max-width: 59ch;
 }
 
-.input-text-hero .botao{
-    display: flex;
-    gap: 13px;
-    align-items: center;
-    padding: 20px 32px;
-    background: #E6EBFF;
-    border-radius: 70px;
-    width: fit-content;
-    transition: all ease-in-out .3s;
+.input-text-hero {
+  display: flex;
+  gap: 1rem;
 }
 
-.input-text-hero .botao img{
-    display: none;
-    opacity: 0;
+.input-text-hero .botao {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+  padding: 20px 32px;
+  background: #e6ebff;
+  border-radius: 70px;
+  width: fit-content;
+  transition: all ease-in-out 0.3s;
 }
 
-.images-hero img{
-    border-radius: 115px;
+.input-text-hero .botao img {
+  display: none;
+  opacity: 0;
 }
 
-.input-text-hero input{
-    padding: 20px 18px 20px 24px;
-    width: 392px;
-    height: 64px;
-    background: #F5F5F5;
-    border-radius: 37px;
-    border: none;
-    color: #565656;
+.images-hero img {
+  border-radius: 115px;
 }
 
-.input-text-hero .botao:hover{
-    background-color: #D5DEFF;
+.input-text-hero input {
+  padding: 20px 18px 20px 24px;
+  width: 392px;
+  height: 64px;
+  background: #f5f5f5;
+  border-radius: 37px;
+  border: none;
+  color: #565656;
 }
 
-.input-text-hero .botao:hover img{
-    display: block;
-    opacity: 1;
+.input-text-hero .botao:hover {
+  background-color: #d5deff;
 }
 
-.foto2{
-    position: absolute;
-    top: 9rem;
-    right: 0;
+.input-text-hero .botao:hover img {
+  display: block;
+  opacity: 1;
+}
 
+.foto2 {
+  position: absolute;
+  top: 9rem;
+  right: 0;
 }
