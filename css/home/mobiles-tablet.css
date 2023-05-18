@@ -1,0 +1,167 @@
+@media screen and (min-width: 481px) and (max-width: 980px) {
+
+  /* cabeçalho header */
+  
+
+
+  /* cabeçalho section hero */
+
+  .cabecalho-hero{
+    max-width: 700px;
+    margin-left: 22px;
+  }
+  .input-text-hero{
+    margin-left: 22px;
+  }
+
+  .cabecalho-hero h1 {
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 12px;
+    padding-top: 84px;
+  }
+  .cabecalho-hero p {
+    font-size: 16px;
+    max-width: 32ch;
+  }
+
+  /* section hero */
+
+  .hero-container {
+    max-width: 980px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+    margin-bottom: 250px;
+  }
+
+  .images-hero img {
+    max-width: 180px;
+  }
+
+  /* section logos */
+
+  .logos-container {
+    justify-content: space-between;
+    margin: 0 20px;
+  }
+
+  .logos-container h1 {
+    max-width: 12ch;
+    font-size: 40px;
+  }
+  .logos-container p {
+    max-width: 36ch;
+    font-size: 16px;
+  }
+  .logos-images {
+    display: flex;
+    max-width: 700px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+  }
+
+  .item-top {
+    grid-row: 1;
+  }
+
+  .item-bottom {
+    grid-row: 2;
+  }
+  .logos-images img {
+    display: flex;
+    padding-bottom: 64px;
+  }
+
+  /* section numeros */
+
+  .numeros-container {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: start;
+    margin-left: 32px;
+  }
+  .numeros-div {
+    align-items: start;
+  }
+
+  .text-numeros p {
+    max-width: 53ch;
+  }
+
+  /* section VUV */
+
+  .vuv-container {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 128px 0;
+    gap: 64px;
+  }
+
+  /* section propagandas */
+
+  .propagandas-container {
+    display: flex;
+    max-width: 700px;
+  }
+
+  .propagandas-text {
+    text-align: start;
+  }
+
+  /* section spetest */
+
+  .spetest-container {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .spetest-container h1 {
+    max-width: 15ch;
+    font-weight: 500;
+    padding-top: 80px;
+  }
+  .spetest-container p {
+    max-width: 50ch;
+    padding: 32px 0 80px 0;
+  }
+
+  /* section depoimentos */
+
+  .depoimentos-setas {
+    display: none;
+  }
+
+  .depoimentos-title {
+    max-width: 700px;
+  }
+  .depoimentos-title h1 {
+    font-size: 40px;
+  }
+  .depoimentos-title p {
+    max-width: 700px;
+  }
+
+  /* section faq */
+
+  .faq-questions {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  /* section footer */
+
+  .footer-container {
+    max-width: 700px;
+  }
+}

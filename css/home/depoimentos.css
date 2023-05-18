@@ -1,11 +1,12 @@
 .depoimentos-container {
-  max-width: 1200px;
   margin: 0 auto;
 }
 
 .depoimentos-title {
   padding-top: 128px;
   padding-bottom: 47px;
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -19,8 +20,13 @@
   gap: 28px;
 }
 
+.cards {
+  flex-direction: row;
+  align-items: flex-start;
+}
+
 .depoimentos-setas .seta-d {
-  background-color: #00000013;
+  background-color: var(--azul);
   max-width: 70px;
   padding: 18px;
   border-radius: 100px;
@@ -61,4 +67,9 @@
 .card1 {
   padding: 32px;
   border-radius: 30px;
+}
+
+.active {
+  background-color: var(--azul);
+  color: var(--branco);
 }
