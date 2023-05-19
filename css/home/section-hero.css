@@ -21,6 +21,7 @@
 .input-botao {
   display: flex;
   gap: 1rem;
+  
 }
 
 .hero-textos > p {
@@ -33,6 +34,7 @@
   background: #f5f5f5;
   border-radius: 37px;
   width: 392px;
+  border: none;
 }
 .input-botao .botao {
   padding: 20px 2rem;
