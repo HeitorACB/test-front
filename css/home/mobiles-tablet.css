@@ -1,60 +1,121 @@
-@media screen and (min-width: 481px) and (max-width: 980px) {
+@media (max-width: 1000px) {
   /* cabeçalho header */
-  .navbar .links,
-  .navbar .botao {
-    display: none;
-  }
-  .botao {
-    margin-left: 10px;
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 32px;
   }
 
-  .navbar .toggle_btn {
-    display: block;
+  .menu-button {
+    background: none;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
   }
-  .dropdown_menu {
+
+  .header-nav {
+    position: fixed;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 24px 48px -12px rgba(16, 24, 40, 0.18);
+    top: 64px;
+    gap: 2rem;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    right: 100%;
+    width: 343px;
     z-index: 1;
-    border-radius: 10px;
   }
 
-  .dropdown_menu li {
-    display: block;
+  .header-nav.ativo {
+    right: 2rem;
   }
 
-  /* cabeçalho section hero */
-
-  .cabecalho-hero {
-    max-width: 700px;
-    margin-left: 22px;
-  }
-  .inpux-text-hero {
-    margin-left: 22px;
+  .header-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0;
   }
 
-  .cabecalho-hero h1 {
-    font-size: 40px;
-    line-height: 48px;
-    margin-bottom: 12px;
+  .header-nav a {
+    margin-left: 0;
   }
-  .cabecalho-hero p {
-    font-size: 16px;
-    max-width: 32ch;
+
+  .header-menu li {
+    text-align: left;
   }
 
   /* section hero */
 
+  .hero-textos {
+    max-width: 700px;
+    margin-left: 22px;
+  }
+  .hero-textos {
+    margin-left: 22px;
+  }
+
+  .hero-textos h1 {
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 12px;
+    max-width: 12ch;
+  }
+  .hero-textos h1 span {
+    font-size: 40px;
+  }
+  .hero-textos p {
+    font-size: 16px;
+    max-width: 32ch;
+  }
+  .input-botao input {
+
+    margin: 0 auto;
+    max-width: 268px;
+    max-height: 100px;
+  }
+  .input-botao .botao  {
+    display: none;
+  }
+    .input-botao button {
+      display: block;
+      
+  }
+  .input-botao button img:hover{
+    background-color: #cccffd;
+  }
+
+  .botao-mobile-hero{
+    background-color: #cccffd;
+    padding: 24px;
+    border-radius: 100px;
+  }
+  
+
+
+
   .hero-container {
     max-width: 980px;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 60px;
     display: flex;
     align-items: center;
-    gap: 24px;
+    gap: 12px;
     position: relative;
     margin-bottom: 250px;
   }
 
-  .images-hero img {
+  .hero-imagens img {
     max-width: 180px;
+
+  }
+  .hero-imagens{
+    margin-right: 32px;
+
   }
 
   /* section logos */
@@ -171,15 +232,21 @@
 
   /* section faq */
 
-  .faq-questions {
-    max-width: 700px;
+  .faq-container {
     margin: 0 auto;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    justify-content: center;
+    align-items: center;
   }
 
   /* section footer */
 
   .footer-container {
     max-width: 700px;
-    margin-bottom: 10000px;
+
   }
 }
+

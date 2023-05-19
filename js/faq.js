@@ -1,13 +1,13 @@
-document.addEventListener("DOMContentLoaded", function() {
-  var itensFaq = document.querySelectorAll(".faq-questions-itens");
-  
-  itensFaq.forEach(function(item) {
-    item.addEventListener("click", function() {
-      if (item.classList.contains("-is-open")) {
-        item.classList.remove("-is-open");
-      } else {
-        item.classList.add("-is-open");
-      }
-    });
-  });
-});
+const acordionHeader = document.querySelector('.accordion-header')
+const acordionContent = document.querySelector('.accordion-content')
+
+
+acordionHeader.addEventListener('click',()=>{
+  acordionHeader.classList.toggle('ativo')
+  acordionContent.classList.toggle('ativo')
+})
+
+acordionContent.addEventListener('click',()=>{
+  acordionHeader.classList.remove('ativo')
+  acordionContent.classList.remove('ativo')
+})

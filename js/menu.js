@@ -1,6 +1,27 @@
-const toggleBtn = document.querySelector('.toggle_btn');
-const dropDownMenu = document.querySelector('.dropdown_menu');
+const menuButton = document.querySelector('.menu-button');
+const menu = document.querySelector('.header-nav');
 
-toggleBtn.addEventListener('click', function() {
-  dropDownMenu.classList.toggle('show');
+menuButton.addEventListener('click',()=>{
+  menu.classList.toggle('ativo');
 });
+
+function closeWhenWindowClicked() {
+  document.addEventListener('click',(event) => {
+    const clickInsideMenu = menu.contains(event.target) || menuButton.contains(event.target);
+
+    if (!clickInsideMenu){
+      menu.classList.remove('ativo');
+    }
+  });
+}
+
+function closeMenuWhenScroll(){
+  window.addEventListener('scroll', ()=>{
+      if(window.scrollY > 0){
+      menu.classList.remove('ativo');
+      }
+  });
+}
+
+closeWhenWindowClicked();
+closeMenuWhenScroll();
