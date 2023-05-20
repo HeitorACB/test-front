@@ -1,7 +1,107 @@
-@media screen and (max-width:480px){
+@media screen and (max-width: 480px) {
   /* section header */
-
+  .header-container {
+    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 16px;
+  }
 
   /* section hero */
+
+  .hero-textos h1 {
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 12px;
+    max-width: 12ch;
+    padding-top: 128px;
+  }
+  .hero-container {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 28px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+    margin-bottom: 7px;
+  }
+  .logos {
+    background-color: var(--fundo-banner-logos);
+    margin-top: 72px;
+  }
+  .logos-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .logos-images {
+    display: flex;
+    flex-direction: column;
+    max-width: 140px;
+  }
+  .logos-images img {
+    display: flex;
+    padding-bottom: 36px;
+  }
+
+
+  .numeros-container {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 12px;
+    padding: 70px 0;
+  }
+  .numeros-div{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 1rem ;
+  }
+
+  .vuv-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1px 16px;
+  }
+  .vuv-title{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .vuv-title div h1{
+    max-width: 100%;
+    padding: 32px 0 12px 0;
+  }
+  .vuv-title div img{
+    padding: 0 16px;
+  }
+  .vuv-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .bg-icone{
+    margin: 0 auto;
+  }
+  .vuv-images h1{
+    margin: 0 auto;
+    text-align: center;
+  }
+  .vuv-images p {
+    margin: 0 auto;
+    text-align: center;
+  }
+
 
 }

@@ -44,6 +44,7 @@
 
 .depoimentos-cards-item {
   display: flex;
+  justify-content: center;
   gap: 20px;
   padding-top: 47px;
   padding-bottom: 128px;
