@@ -1,0 +1,87 @@
+@use 'tipografia-cores.scss';
+
+.hero {
+  background-color: tipografia-cores.$branco;
+
+}
+.botao-mobile-hero{
+  display: none;
+}
+
+.hero-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.hero-textos {
+  max-width: 60ch;
+}
+
+.input-botao {
+  display: flex;
+  gap: 1rem;
+}
+
+.hero-textos > p {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.input-botao input {
+  padding: 20px 24px;
+  background: #f5f5f5;
+  border-radius: 37px;
+  width: 392px;
+  border: none;
+}
+
+.botao-hero{
+  display: flex;
+  padding: 20px 2rem;
+  background: #E5EBFF;
+  color:#3461FF;
+  border-radius: 70px;
+  font-weight: 500;
+  align-items: center;
+  transition: all ease-in-out 0.3s;
+  font-family: "Poppins";
+}
+
+.hero-imagens {
+  display: flex;
+  margin-top: 10px;
+}
+
+.hero-imagens img {
+  position: relative;
+  box-shadow: 0px 32px 64px -12px rgba(16, 24, 40, 0.4);
+  border-radius: 119.5px;
+}
+
+.hero-imagens img:first-child {
+  left: 3rem;
+}
+
+.hero-imagens img + img {
+  top: 9rem;
+}
+
+.input-botao .botao-hero img {
+  margin-left: 0px;
+  width: 0;
+  overflow: hidden;
+  transition: all ease-in-out 0.3s;
+}
+
+
+.input-botao .botao:hover {
+  background-color: #1B46E0;
+}
+
+.input-botao .botao-hero:hover img {
+  margin-left: 13px;
+  width: fit-content;
+}

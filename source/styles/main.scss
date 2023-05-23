@@ -1,0 +1,56 @@
+@use 'depoimentos.scss';
+@use 'faq.scss';
+@use 'footer.scss';
+@use 'header.scss';
+@use 'logos.scss';
+@use 'propagandas.scss';
+@use 'mobiles-tablet.scss';
+@use 'numeros.scss';
+@use 'section-hero.scss';
+@use 'spetest.scss';
+@use 'tipografia-cores.scss';
+@use 'vuv-section.scss';
+@use 'mobile-celular.scss';
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  min-width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  overflow-x: hidden;
+  font-family: "Poppins" !important;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+button {
+  cursor: pointer;
+  display: block;
+  border: none;
+}
+
+.botao {
+  display: block;
+  width: fit-content;
+}
+

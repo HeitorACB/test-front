@@ -1,0 +1,43 @@
+@use 'tipografia-cores.scss';
+
+header{
+  background-color: rgb(255, 255, 255);
+}
+.header-container{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 1.125rem 0;
+}
+
+.header-nav{
+  width: 100%;
+  display: flex;
+}
+
+.header-menu{
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-nav a{
+  margin-left: auto;
+  
+}
+.botao-header{
+  padding: 16px 24px;
+  background-color: tipografia-cores.$azul;
+  color: white;
+  border-radius: 30px ;
+}
+.botao-header:hover{
+  background-color: #214ef3;
+  color: white;
+}
+
+.menu-button{
+  display: none;
+}

@@ -1,0 +1,21 @@
+@use 'tipografia-cores.scss';
+
+.spetest {
+  background-color: tipografia-cores.$azul;;
+}
+
+.spetest-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.spetest-container h1 {
+  max-width: 20ch;
+  font-weight: 500;
+}
+.spetest-container p {
+  max-width: 54ch;
+  padding: 76px 0;
+}

@@ -1,0 +1,49 @@
+@use 'tipografia-cores.scss';
+
+.vuv-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 128px 0;
+}
+
+.vuv-title div h1 {
+  max-width: 10ch;
+}
+.vuv-title div p {
+  max-width: 42ch;
+  padding-top: 12px;
+  padding-bottom: 40px;
+}
+
+.bg-icone {
+  width: 102px;
+  height: 102px;
+  background-color: tipografia-cores.$azul;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vuv-images img {
+  background-color: tipografia-cores.$azul;
+  padding: 28px;
+  border-radius: 30px;
+}
+
+.vuv-images h1 {
+  padding-top: 24px;
+  padding-bottom: 16px;
+}
+
+.vuv-images p {
+  max-width: 28ch;
+}
+
+.vuv-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.25rem 2rem;
+}

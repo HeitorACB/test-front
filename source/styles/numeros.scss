@@ -1,0 +1,27 @@
+@use 'tipografia-cores.scss';
+
+.numeros-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  padding: 128px 0;
+  justify-content: space-between;
+  align-items: center;
+  gap: 138px;
+}
+
+.numeros-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem 8.625rem;
+}
+.numeros-div h1 {
+  font-size: 64px;
+}
+.numeros-div p {
+  max-width: 16ch;
+}
+
+.text-numeros p {
+  max-width: 60ch;
+}
