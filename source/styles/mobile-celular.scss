@@ -114,7 +114,9 @@
     text-align: center;
   }
 
-
+  .propagandas-images  img {
+  max-width: 330px;
+  }
   .propagandas-images {
     display: block;
     flex-direction: column;
@@ -123,6 +125,9 @@
     margin: 0 auto;
     padding: 0 1px;
     margin-bottom: 100px ;
+  }
+  .propagandas-images p{
+    padding-bottom: 30px;
   }
 
   .propagandas{
