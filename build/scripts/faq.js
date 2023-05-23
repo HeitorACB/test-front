@@ -1,0 +1,1 @@
+const acordionHeaders=document.querySelectorAll(".accordion-header");acordionHeaders.forEach(i=>{i.addEventListener("click",()=>{var a=i.nextElementSibling,e=i.classList.contains("ativo");acordionHeaders.forEach(a=>{a.classList.remove("ativo"),a.nextElementSibling.classList.remove("ativo")}),e||(i.classList.add("ativo"),a.classList.add("ativo"))})});
